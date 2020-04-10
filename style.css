@@ -1,8 +1,72 @@
-nav.navlinks {
-  inline-size: auto;
+/* * {
+  border:1px solid red;
+  
+} */
+
+
+#navlinks ul {
+  background-color: blueviolet;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: red;
+
+} 
+
+li > img {
   float: right;
-  width: auto;
-  padding-top: 50px;
-  border-width: 30px;
-background-color: aqua;
+  display: block;
+}
+
+body {
+  margin: auto;
+   max-width: 915px;
+  max-height: 600px;
+}
+
+article > img {
+  display: block;
+  margin-left: auto;
+margin-right: auto
+
+}
+
+article > p {
+  text-indent: 10%;
+}
+
+#bio img {
+  float: left;
+
+}
+#bio button {
+  float: right;
+}
+
+/* #biglist {
+
+  position: relative;
+
+}
+
+#biglist > img > figcaption {
+  z-index: auto;
+} */
+
+#list {
+  position: relative;
+  text-align: center;
+}
+
+#ingredients {
+  position: absolute;
+  top: 1180px;
+  left: 175px;
+
+}
+
+#ingredients1 {
+  position: absolute;
+  top: 1180px;
+  left: 580px;
 }
