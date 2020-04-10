@@ -1,0 +1,8 @@
+nav.navlinks {
+  inline-size: auto;
+  float: right;
+  width: auto;
+  padding-top: 50px;
+  border-width: 30px;
+background-color: aqua;
+}
